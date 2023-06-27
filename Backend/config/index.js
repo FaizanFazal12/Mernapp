@@ -1,0 +1,15 @@
+const dotenv=require("dotenv").config();
+
+const PORT=process.env.PORT;
+const MOGODB_CONNECTION_STRING=process.env.MOGODB_CONNECTION_STRING;
+const ACCESS_TOKEN_SECRET=process.env.ACCESS_TOKEN_SECRET;
+const REFRESH_TOKEN_SECRET=process.env.REFRESH_TOKEN_SECRET
+const BACKEND_PHOTOPATH=process.env.BACKEND_PHOTOPATH
+
+module.exports={
+    PORT,
+    MOGODB_CONNECTION_STRING,
+    REFRESH_TOKEN_SECRET,
+    ACCESS_TOKEN_SECRET,
+    BACKEND_PHOTOPATH
+}
